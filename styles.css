@@ -70,15 +70,42 @@ h3{
     color: hsla(0, 0%, 100%, 0.6);
 }
 @media screen and (min-width: 992px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        text-align: start;
+    }
     section{
         display: flex;
         flex-direction: row-reverse;
         width: 80%;
+        padding-bottom: 0;
     }
     .img-background{
-
+        display: flex;
+        width: 100%;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .img{
+        border-radius: 0px 10px 10px 0px;
     }
     .card{
-
+        padding: 1.5em;
+    }
+    h1{
+        text-align: start;
+    }
+    .attribution{
+        display: none;
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    li{
+        padding: 0;
     }
 }
